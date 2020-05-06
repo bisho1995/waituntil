@@ -13,7 +13,7 @@ Suppose you need to show a snackbar message to a user after getting the API resp
 ### Basic usage
 
 ```
-const waituntil = require('waituntil')
+const waituntil = require('waituntil2')
 
 const delayedTask = waituntil(()=>{ console.log("I will be running immediately when executed") }, (msg)=>{ console.log("I will run after 5 seconds and print this message ",msg) }, 5000 )
 
@@ -37,7 +37,7 @@ I will run after 5 seconds and print this message I am awesome
 Execute the function only once by passing the `executeOnce` flag as true
 
 ```
-const waituntil = require('waituntil')
+const waituntil = require('waituntil2')
 
 const delayedTask = waituntil(()=>{ console.log("I will be running immediately when executed") }, (msg)=>{ console.log("I will run after 5 seconds and print this message",msg) }, 5000, true )
 

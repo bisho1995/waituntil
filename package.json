@@ -1,15 +1,14 @@
 {
-  "name": "waituntil",
-  "version": "1.0.0",
+  "name": "waituntil2",
+  "version": "1.0.1",
   "main": "waituntil.js",
   "types": "waituntil.d.ts",
   "author": "Bisvarup Mukherjee <codeworks0301@gmail.com>",
   "license": "MIT",
   "scripts": {
     "compile": "tsc waituntil.ts --declaration",
-    "prepublish": "npm run compile",
-    "publish": "npm publish",
-    "np": "npm run np"
+    "prepublishOnly": "npm run compile",
+    "publish": "npm publish"
   },
   "files": [
     "waituntil.js",
@@ -27,7 +26,6 @@
   "devDependencies": {
     "@types/node": "^13.13.5",
     "mocha": "^7.1.2",
-    "np": "^6.2.3",
     "tsc": "^1.20150623.0",
     "typescript": "^3.8.3"
   },
