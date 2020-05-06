@@ -21,6 +21,14 @@
   "bugs": {
     "url": "https://github.com/bisho1995/waituntil/issues"
   },
+  "keywords": [
+    "once",
+    "function",
+    "wait",
+    "until",
+    "timer",
+    "function timer"
+  ],
   "homepage": "https://github.com/bisho1995/waituntil",
   "licenses": "MIT",
   "devDependencies": {
